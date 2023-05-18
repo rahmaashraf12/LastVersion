@@ -37,6 +37,7 @@ public class showDetailActivity extends AppCompatActivity {
     private void bottomNavigation() {
         LinearLayout homeBtn =findViewById(R.id.homeBtn_Card);
         LinearLayout cartBtn = findViewById(R.id.CardBtn_again);
+        LinearLayout map = findViewById(R.id.Google_Map);
 
         homeBtn.setOnClickListener((v -> {
             startActivity(new Intent(showDetailActivity.this,MainActivity.class));
@@ -44,6 +45,10 @@ public class showDetailActivity extends AppCompatActivity {
 
         cartBtn.setOnClickListener((v -> {
             startActivity(new Intent(showDetailActivity.this,CartActivity.class));
+        }));
+
+        map.setOnClickListener((v -> {
+            startActivity(new Intent(showDetailActivity.this,My_Map_Activity.class));
         }));
     }
 

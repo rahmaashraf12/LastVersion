@@ -49,6 +49,7 @@ drawable yellow_bar
 drawable yellow_btn_background
 id CardBtn_again
 id CartBtn
+id Google_Map
 id ProfileBtn_Card
 id addBtn
 id add_to_Cart_Btn
@@ -83,6 +84,7 @@ id imageView6
 id imageView7
 id itemtotal
 id mainLayout
+id map
 id minus_Card_Btn
 id numberItemTxt
 id picCart
@@ -132,16 +134,17 @@ id view3
 layout activity_cart
 layout activity_intro
 layout activity_main
+layout activity_my_map
 layout activity_show_detail
 layout viewholder_cart
 layout viewholder_category
 layout viewholder_recommended
 mipmap burger
-mipmap fork
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap order_food
 string app_name
+string title_activity_my_map
 style Theme.FoodTime
 xml backup_rules
 xml data_extraction_rules

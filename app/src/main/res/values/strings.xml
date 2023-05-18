@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Food Time</string>
+    <string name="title_activity_my_map">My_Map_Activity</string>
 </resources>

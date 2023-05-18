@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.example.foodtime.app-mergeDebugResources-32:/layout/activity_my_map.xml",
+        "source": "com.example.foodtime.app-main-35:/layout/activity_my_map.xml"
+    },
+    {
+        "merged": "com.example.foodtime.app-mergeDebugResources-32:/layout/viewholder_cart.xml",
+        "source": "com.example.foodtime.app-main-35:/layout/viewholder_cart.xml"
+    },
+    {
+        "merged": "com.example.foodtime.app-mergeDebugResources-32:/layout/viewholder_recommended.xml",
+        "source": "com.example.foodtime.app-main-35:/layout/viewholder_recommended.xml"
+    },
+    {
+        "merged": "com.example.foodtime.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.example.foodtime.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.foodtime.app-mergeDebugResources-32:/layout/activity_show_detail.xml",
+        "source": "com.example.foodtime.app-main-35:/layout/activity_show_detail.xml"
+    },
+    {
+        "merged": "com.example.foodtime.app-mergeDebugResources-32:/layout/viewholder_category.xml",
+        "source": "com.example.foodtime.app-main-35:/layout/viewholder_category.xml"
+    },
+    {
+        "merged": "com.example.foodtime.app-mergeDebugResources-32:/layout/activity_intro.xml",
+        "source": "com.example.foodtime.app-main-35:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.example.foodtime.app-mergeDebugResources-32:/layout/activity_cart.xml",
+        "source": "com.example.foodtime.app-main-35:/layout/activity_cart.xml"
+    }
+]

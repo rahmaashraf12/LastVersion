@@ -1,6 +1,7 @@
 package com.example.foodtime.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private void bottomNavigation() {
         LinearLayout homeBtn =findViewById(R.id.homeBtn_Card);
         LinearLayout cartBtn = findViewById(R.id.CartBtn);
+        LinearLayout map = findViewById(R.id.Google_Map);
 
         homeBtn.setOnClickListener((v -> {
             startActivity(new Intent(MainActivity.this,MainActivity.class));
@@ -40,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
 
         cartBtn.setOnClickListener((v -> {
             startActivity(new Intent(MainActivity.this,CartActivity.class));
+        }));
+
+        map.setOnClickListener((v -> {
+            startActivity(new Intent(MainActivity.this,My_Map_Activity.class));
         }));
     }
 
@@ -61,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         adapter2 = new RecommendedAdapter(foodlist);
         recyclerViewpopularlist.setAdapter(adapter2);
+
     }
 
     private void racyclerviewcategory() {
