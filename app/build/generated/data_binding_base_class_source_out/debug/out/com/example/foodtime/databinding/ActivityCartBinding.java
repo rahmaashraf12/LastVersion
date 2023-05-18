@@ -29,6 +29,9 @@ public final class ActivityCartBinding implements ViewBinding {
   public final LinearLayout CardBtnAgain;
 
   @NonNull
+  public final LinearLayout GoogleMap;
+
+  @NonNull
   public final LinearLayout ProfileBtnCard;
 
   @NonNull
@@ -60,6 +63,9 @@ public final class ActivityCartBinding implements ViewBinding {
 
   @NonNull
   public final ImageView homePage;
+
+  @NonNull
+  public final LinearLayout homebtnSetting;
 
   @NonNull
   public final CoordinatorLayout itemtotal;
@@ -113,11 +119,12 @@ public final class ActivityCartBinding implements ViewBinding {
   public final View view3;
 
   private ActivityCartBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayout CardBtnAgain, @NonNull LinearLayout ProfileBtnCard,
-      @NonNull BottomAppBar appBar, @NonNull TextView card, @NonNull ImageView cardPage,
-      @NonNull TextView deliveryServicePrice, @NonNull TextView deliveryServiceView,
-      @NonNull TextView emptyView, @NonNull RecyclerView foodListView, @NonNull TextView home,
-      @NonNull LinearLayout homeBtnCard, @NonNull ImageView homePage,
+      @NonNull LinearLayout CardBtnAgain, @NonNull LinearLayout GoogleMap,
+      @NonNull LinearLayout ProfileBtnCard, @NonNull BottomAppBar appBar, @NonNull TextView card,
+      @NonNull ImageView cardPage, @NonNull TextView deliveryServicePrice,
+      @NonNull TextView deliveryServiceView, @NonNull TextView emptyView,
+      @NonNull RecyclerView foodListView, @NonNull TextView home, @NonNull LinearLayout homeBtnCard,
+      @NonNull ImageView homePage, @NonNull LinearLayout homebtnSetting,
       @NonNull CoordinatorLayout itemtotal, @NonNull TextView profile,
       @NonNull ImageView profilePage, @NonNull ScrollView scrollView2, @NonNull TextView settings,
       @NonNull ImageView settingsPage, @NonNull TextView support, @NonNull ImageView supportPage,
@@ -127,6 +134,7 @@ public final class ActivityCartBinding implements ViewBinding {
       @NonNull View view3) {
     this.rootView = rootView;
     this.CardBtnAgain = CardBtnAgain;
+    this.GoogleMap = GoogleMap;
     this.ProfileBtnCard = ProfileBtnCard;
     this.appBar = appBar;
     this.card = card;
@@ -138,6 +146,7 @@ public final class ActivityCartBinding implements ViewBinding {
     this.home = home;
     this.homeBtnCard = homeBtnCard;
     this.homePage = homePage;
+    this.homebtnSetting = homebtnSetting;
     this.itemtotal = itemtotal;
     this.profile = profile;
     this.profilePage = profilePage;
@@ -187,6 +196,12 @@ public final class ActivityCartBinding implements ViewBinding {
       id = R.id.CardBtn_again;
       LinearLayout CardBtnAgain = ViewBindings.findChildViewById(rootView, id);
       if (CardBtnAgain == null) {
+        break missingId;
+      }
+
+      id = R.id.Google_Map;
+      LinearLayout GoogleMap = ViewBindings.findChildViewById(rootView, id);
+      if (GoogleMap == null) {
         break missingId;
       }
 
@@ -253,6 +268,12 @@ public final class ActivityCartBinding implements ViewBinding {
       id = R.id.homePage;
       ImageView homePage = ViewBindings.findChildViewById(rootView, id);
       if (homePage == null) {
+        break missingId;
+      }
+
+      id = R.id.homebtn_setting;
+      LinearLayout homebtnSetting = ViewBindings.findChildViewById(rootView, id);
+      if (homebtnSetting == null) {
         break missingId;
       }
 
@@ -358,11 +379,11 @@ public final class ActivityCartBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCartBinding((ConstraintLayout) rootView, CardBtnAgain, ProfileBtnCard,
-          appBar, card, cardPage, deliveryServicePrice, deliveryServiceView, emptyView,
-          foodListView, home, homeBtnCard, homePage, itemtotal, profile, profilePage, scrollView2,
-          settings, settingsPage, support, supportPage, taxPrice, taxView, textView13, textView15,
-          totalItemCount, totalItemView, totalPrice, totalView, view3);
+      return new ActivityCartBinding((ConstraintLayout) rootView, CardBtnAgain, GoogleMap,
+          ProfileBtnCard, appBar, card, cardPage, deliveryServicePrice, deliveryServiceView,
+          emptyView, foodListView, home, homeBtnCard, homePage, homebtnSetting, itemtotal, profile,
+          profilePage, scrollView2, settings, settingsPage, support, supportPage, taxPrice, taxView,
+          textView13, textView15, totalItemCount, totalItemView, totalPrice, totalView, view3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

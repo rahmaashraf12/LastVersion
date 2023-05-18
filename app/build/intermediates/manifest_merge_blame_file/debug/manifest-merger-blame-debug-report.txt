@@ -11,8 +11,8 @@
 9-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:53:5-78
-11-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:53:22-76
+11-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:62:5-78
+11-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:62:22-76
 12
 13    <!-- Include required permissions for Google Maps API to run. -->
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -50,7 +50,7 @@
 31-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 32
 33    <application
-33-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:5:5-52:19
+33-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:5:5-61:19
 34        android:allowBackup="true"
 34-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:6:9-35
 35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -99,84 +99,102 @@
 64-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:33:13-58
 65        <activity
 65-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:34:9-36:40
-66            android:name="com.example.foodtime.Activity.showDetailActivity"
-66-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:35:13-56
+66            android:name="com.example.foodtime.Activity.LogoutActivity"
+66-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:35:13-52
 67            android:exported="false" />
 67-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:36:13-37
 68        <activity
 68-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:37:9-39:40
-69            android:name="com.example.foodtime.Activity.CartActivity"
-69-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:38:13-50
+69            android:name="com.example.foodtime.Activity.SignupActivity"
+69-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:38:13-52
 70            android:exported="false" />
 70-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:39:13-37
 71        <activity
 71-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:40:9-42:40
-72            android:name="com.example.foodtime.Activity.MainActivity"
-72-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:41:13-50
+72            android:name="com.example.foodtime.Activity.showDetailActivity"
+72-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:41:13-56
 73            android:exported="false" />
 73-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:42:13-37
 74        <activity
-74-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:43:9-51:20
-75            android:name="com.example.foodtime.Activity.IntroActivity"
-75-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:44:13-51
-76            android:exported="true" >
-76-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:45:13-36
-77            <intent-filter>
-77-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:46:13-50:29
-78                <action android:name="android.intent.action.MAIN" />
-78-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:47:17-69
-78-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:47:25-66
-79
-80                <category android:name="android.intent.category.LAUNCHER" />
-80-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:49:17-77
-80-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:49:27-74
-81            </intent-filter>
-82        </activity>
-83        <!-- Needs to be explicitly declared on P+ -->
-84        <uses-library
-84-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\af01c6636c070b71fc3723562accf2ac\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
-85            android:name="org.apache.http.legacy"
-85-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\af01c6636c070b71fc3723562accf2ac\transformed\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
-86            android:required="false" />
-86-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\af01c6636c070b71fc3723562accf2ac\transformed\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
-87
-88        <activity
-88-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\f203588258979c9cea5e4c48c3081c3e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-89-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\f203588258979c9cea5e4c48c3081c3e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-90            android:exported="false"
-90-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\f203588258979c9cea5e4c48c3081c3e\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\f203588258979c9cea5e4c48c3081c3e\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-92
-93        <meta-data
-93-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b149a4a68db7a75ac12c3e336a2af80e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-94            android:name="com.google.android.gms.version"
-94-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b149a4a68db7a75ac12c3e336a2af80e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-95            android:value="@integer/google_play_services_version" />
-95-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b149a4a68db7a75ac12c3e336a2af80e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+74-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:43:9-45:40
+75            android:name="com.example.foodtime.Activity.CartActivity"
+75-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:44:13-50
+76            android:exported="false" />
+76-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:45:13-37
+77        <activity
+77-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:46:9-48:40
+78            android:name="com.example.foodtime.Activity.MainActivity"
+78-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:47:13-50
+79            android:exported="false" />
+79-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:48:13-37
+80        <activity
+80-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:49:9-51:39
+81            android:name="com.example.foodtime.Activity.IntroActivity"
+81-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:50:13-51
+82            android:exported="false" />
+82-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:51:13-37
+83        <activity
+83-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:52:9-60:20
+84            android:name="com.example.foodtime.Activity.loginActivity"
+84-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:53:13-51
+85            android:exported="true" >
+85-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:54:13-36
+86            <intent-filter>
+86-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:55:13-59:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:56:17-69
+87-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:56:25-66
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:58:17-77
+89-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:58:27-74
+90            </intent-filter>
+91        </activity>
+92        <!-- Needs to be explicitly declared on P+ -->
+93        <uses-library
+93-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\af01c6636c070b71fc3723562accf2ac\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+94            android:name="org.apache.http.legacy"
+94-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\af01c6636c070b71fc3723562accf2ac\transformed\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+95            android:required="false" />
+95-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\af01c6636c070b71fc3723562accf2ac\transformed\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
 96
-97        <provider
-97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-98            android:name="androidx.startup.InitializationProvider"
-98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-99            android:authorities="com.example.foodtime.androidx-startup"
-99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-100            android:exported="false" >
-100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-101            <meta-data
-101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-103                android:value="androidx.startup" />
-103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-104            <meta-data
-104-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-105-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-106                android:value="androidx.startup" />
-106-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-107        </provider>
-108    </application>
-109
-110</manifest>
+97        <activity
+97-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\f203588258979c9cea5e4c48c3081c3e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+98-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\f203588258979c9cea5e4c48c3081c3e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\f203588258979c9cea5e4c48c3081c3e\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\f203588258979c9cea5e4c48c3081c3e\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+101
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b149a4a68db7a75ac12c3e336a2af80e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b149a4a68db7a75ac12c3e336a2af80e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b149a4a68db7a75ac12c3e336a2af80e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+105
+106        <provider
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+107            android:name="androidx.startup.InitializationProvider"
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+108            android:authorities="com.example.foodtime.androidx-startup"
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+109            android:exported="false" >
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+110            <meta-data
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+112                android:value="androidx.startup" />
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+114                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+114-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+115                android:value="androidx.startup" />
+115-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+116        </provider>
+117    </application>
+118
+119</manifest>

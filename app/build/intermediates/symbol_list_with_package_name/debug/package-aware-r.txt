@@ -2999,7 +2999,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable designlogo
 drawable flame
+drawable food1
+drawable food2
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable grey_bar
@@ -3018,7 +3021,10 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable juice
 drawable logo
+drawable logodesign
+drawable logs
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3108,6 +3114,7 @@ drawable white_circle
 drawable white_recommended_btn
 drawable yellow_bar
 drawable yellow_btn_background
+font f
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3351,6 +3358,7 @@ id home
 id homeAsUp
 id homeBtn_Card
 id homePage
+id homebtn_setting
 id honorRequest
 id horizontal_only
 id hybrid
@@ -3388,6 +3396,11 @@ id line3
 id linear
 id listMode
 id list_item
+id loginRedirectText
+id login_button
+id login_email
+id login_password
+id logout
 id m3_side_sheet
 id mainLayout
 id map
@@ -3473,6 +3486,7 @@ id numberItemTxt
 id off
 id on
 id onInterceptTouchReturnSwipe
+id out_Google_Map
 id outline
 id outward
 id overshoot
@@ -3557,6 +3571,11 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signupRedirectText
+id signup_button
+id signup_confirm
+id signup_email
+id signup_password
 id sin
 id skipCollapsed
 id skipped
@@ -3810,9 +3829,12 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_cart
 layout activity_intro
+layout activity_login
+layout activity_logout
 layout activity_main
 layout activity_my_map
 layout activity_show_detail
+layout activity_signup
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

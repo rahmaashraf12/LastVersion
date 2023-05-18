@@ -63,6 +63,12 @@
             android:exported="true"
             android:label="@string/title_activity_my_map" />
         <activity
+            android:name="com.example.foodtime.Activity.LogoutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.foodtime.Activity.SignupActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.foodtime.Activity.showDetailActivity"
             android:exported="false" />
         <activity
@@ -73,6 +79,9 @@
             android:exported="false" />
         <activity
             android:name="com.example.foodtime.Activity.IntroActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.foodtime.Activity.loginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

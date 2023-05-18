@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\DELL\.gradle\caches\transforms-3\80aaf3ef37f9894d21ce7e91b6389c77\transformed\viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\d23587c4a262c20f273198665f435022\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\43341abde141a903890b3b877d0cb134\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -52,27 +52,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DELL\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\158d640c272dcbb64d7aefaa1c6a33a5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\7b9cb8d14cbe6b2dac1c137f6ae299ba\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\76fbf5c4908dd6b9897dcfd3f501ed43\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-55:12
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-55:12
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-55:12
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:5:5-52:19
+ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:5:5-61:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\d23587c4a262c20f273198665f435022\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\d23587c4a262c20f273198665f435022\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\43341abde141a903890b3b877d0cb134\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -131,44 +131,62 @@ ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidMan
 		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:32:13-36
 	android:name
 		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:31:13-53
-activity#com.example.foodtime.Activity.showDetailActivity
+activity#com.example.foodtime.Activity.LogoutActivity
 ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
 		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:35:13-56
-activity#com.example.foodtime.Activity.CartActivity
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:35:13-52
+activity#com.example.foodtime.Activity.SignupActivity
 ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
 		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:38:13-50
-activity#com.example.foodtime.Activity.MainActivity
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:38:13-52
+activity#com.example.foodtime.Activity.showDetailActivity
 ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:40:9-42:40
 	android:exported
 		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:41:13-50
-activity#com.example.foodtime.Activity.IntroActivity
-ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:43:9-51:20
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:41:13-56
+activity#com.example.foodtime.Activity.CartActivity
+ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:43:9-45:40
 	android:exported
-		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:45:13-36
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:44:13-51
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:44:13-50
+activity#com.example.foodtime.Activity.MainActivity
+ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:46:9-48:40
+	android:exported
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:47:13-50
+activity#com.example.foodtime.Activity.IntroActivity
+ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:49:9-51:39
+	android:exported
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:50:13-51
+activity#com.example.foodtime.Activity.loginActivity
+ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:52:9-60:20
+	android:exported
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:54:13-36
+	android:name
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:53:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:46:13-50:29
+ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:55:13-59:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:47:17-69
+ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:47:25-66
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:49:17-77
+ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:58:17-77
 	android:name
-		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:49:27-74
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:58:27-74
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:53:5-78
+ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:62:5-78
 	android:name
-		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:53:22-76
+		ADDED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:62:22-76
 uses-sdk
 INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml

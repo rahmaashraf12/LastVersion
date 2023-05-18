@@ -1,6 +1,8 @@
 package com.example.foodtime.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.LinearLayout;
 
 import androidx.fragment.app.FragmentActivity;
 
@@ -29,6 +31,29 @@ public class My_Map_Activity extends FragmentActivity implements OnMapReadyCallb
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+    }
+
+    private void bottomNavigation() {
+        LinearLayout homeBtn =findViewById(R.id.homeBtn_Card);
+        LinearLayout cartBtn = findViewById(R.id.CardBtn_again);
+        LinearLayout map = findViewById(R.id.Google_Map);
+        LinearLayout setteings = findViewById(R.id.homebtn_setting);
+
+        homeBtn.setOnClickListener((v -> {
+            startActivity(new Intent(My_Map_Activity.this,MainActivity.class));
+        }));
+
+        cartBtn.setOnClickListener((v -> {
+            startActivity(new Intent(My_Map_Activity.this,CartActivity.class));
+        }));
+
+        map.setOnClickListener((v -> {
+            startActivity(new Intent(My_Map_Activity.this,My_Map_Activity.class));
+        }));
+
+        setteings.setOnClickListener((v -> {
+            startActivity(new Intent(My_Map_Activity.this,LogoutActivity.class));
+        }));
     }
 
     /**
