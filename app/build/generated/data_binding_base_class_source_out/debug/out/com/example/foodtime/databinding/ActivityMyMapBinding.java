@@ -4,105 +4,32 @@ package com.example.foodtime.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.widget.SearchView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.foodtime.R;
-import com.google.android.material.bottomappbar.BottomAppBar;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMyMapBinding implements ViewBinding {
   @NonNull
-  private final View rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final LinearLayout CardBtnAgain;
+  public final SearchView mapSearch;
 
-  @NonNull
-  public final LinearLayout GoogleMap;
-
-  @NonNull
-  public final LinearLayout ProfileBtnCard;
-
-  @NonNull
-  public final BottomAppBar appBar;
-
-  @NonNull
-  public final TextView card;
-
-  @NonNull
-  public final ImageView cardPage;
-
-  @NonNull
-  public final TextView home;
-
-  @NonNull
-  public final LinearLayout homeBtnCard;
-
-  @NonNull
-  public final ImageView homePage;
-
-  @NonNull
-  public final LinearLayout homebtnSetting;
-
-  @NonNull
-  public final CoordinatorLayout itemtotal;
-
-  @NonNull
-  public final TextView profile;
-
-  @NonNull
-  public final ImageView profilePage;
-
-  @NonNull
-  public final TextView settings;
-
-  @NonNull
-  public final ImageView settingsPage;
-
-  @NonNull
-  public final TextView support;
-
-  @NonNull
-  public final ImageView supportPage;
-
-  private ActivityMyMapBinding(@NonNull View rootView, @NonNull LinearLayout CardBtnAgain,
-      @NonNull LinearLayout GoogleMap, @NonNull LinearLayout ProfileBtnCard,
-      @NonNull BottomAppBar appBar, @NonNull TextView card, @NonNull ImageView cardPage,
-      @NonNull TextView home, @NonNull LinearLayout homeBtnCard, @NonNull ImageView homePage,
-      @NonNull LinearLayout homebtnSetting, @NonNull CoordinatorLayout itemtotal,
-      @NonNull TextView profile, @NonNull ImageView profilePage, @NonNull TextView settings,
-      @NonNull ImageView settingsPage, @NonNull TextView support, @NonNull ImageView supportPage) {
+  private ActivityMyMapBinding(@NonNull ConstraintLayout rootView, @NonNull SearchView mapSearch) {
     this.rootView = rootView;
-    this.CardBtnAgain = CardBtnAgain;
-    this.GoogleMap = GoogleMap;
-    this.ProfileBtnCard = ProfileBtnCard;
-    this.appBar = appBar;
-    this.card = card;
-    this.cardPage = cardPage;
-    this.home = home;
-    this.homeBtnCard = homeBtnCard;
-    this.homePage = homePage;
-    this.homebtnSetting = homebtnSetting;
-    this.itemtotal = itemtotal;
-    this.profile = profile;
-    this.profilePage = profilePage;
-    this.settings = settings;
-    this.settingsPage = settingsPage;
-    this.support = support;
-    this.supportPage = supportPage;
+    this.mapSearch = mapSearch;
   }
 
   @Override
   @NonNull
-  public View getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -127,111 +54,13 @@ public final class ActivityMyMapBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.CardBtn_again;
-      LinearLayout CardBtnAgain = ViewBindings.findChildViewById(rootView, id);
-      if (CardBtnAgain == null) {
+      id = R.id.mapSearch;
+      SearchView mapSearch = ViewBindings.findChildViewById(rootView, id);
+      if (mapSearch == null) {
         break missingId;
       }
 
-      id = R.id.Google_Map;
-      LinearLayout GoogleMap = ViewBindings.findChildViewById(rootView, id);
-      if (GoogleMap == null) {
-        break missingId;
-      }
-
-      id = R.id.ProfileBtn_Card;
-      LinearLayout ProfileBtnCard = ViewBindings.findChildViewById(rootView, id);
-      if (ProfileBtnCard == null) {
-        break missingId;
-      }
-
-      id = R.id.app_bar;
-      BottomAppBar appBar = ViewBindings.findChildViewById(rootView, id);
-      if (appBar == null) {
-        break missingId;
-      }
-
-      id = R.id.card;
-      TextView card = ViewBindings.findChildViewById(rootView, id);
-      if (card == null) {
-        break missingId;
-      }
-
-      id = R.id.cardPage;
-      ImageView cardPage = ViewBindings.findChildViewById(rootView, id);
-      if (cardPage == null) {
-        break missingId;
-      }
-
-      id = R.id.home;
-      TextView home = ViewBindings.findChildViewById(rootView, id);
-      if (home == null) {
-        break missingId;
-      }
-
-      id = R.id.homeBtn_Card;
-      LinearLayout homeBtnCard = ViewBindings.findChildViewById(rootView, id);
-      if (homeBtnCard == null) {
-        break missingId;
-      }
-
-      id = R.id.homePage;
-      ImageView homePage = ViewBindings.findChildViewById(rootView, id);
-      if (homePage == null) {
-        break missingId;
-      }
-
-      id = R.id.homebtn_setting;
-      LinearLayout homebtnSetting = ViewBindings.findChildViewById(rootView, id);
-      if (homebtnSetting == null) {
-        break missingId;
-      }
-
-      id = R.id.itemtotal;
-      CoordinatorLayout itemtotal = ViewBindings.findChildViewById(rootView, id);
-      if (itemtotal == null) {
-        break missingId;
-      }
-
-      id = R.id.profile;
-      TextView profile = ViewBindings.findChildViewById(rootView, id);
-      if (profile == null) {
-        break missingId;
-      }
-
-      id = R.id.profilePage;
-      ImageView profilePage = ViewBindings.findChildViewById(rootView, id);
-      if (profilePage == null) {
-        break missingId;
-      }
-
-      id = R.id.settings;
-      TextView settings = ViewBindings.findChildViewById(rootView, id);
-      if (settings == null) {
-        break missingId;
-      }
-
-      id = R.id.settingsPage;
-      ImageView settingsPage = ViewBindings.findChildViewById(rootView, id);
-      if (settingsPage == null) {
-        break missingId;
-      }
-
-      id = R.id.support;
-      TextView support = ViewBindings.findChildViewById(rootView, id);
-      if (support == null) {
-        break missingId;
-      }
-
-      id = R.id.supportPage;
-      ImageView supportPage = ViewBindings.findChildViewById(rootView, id);
-      if (supportPage == null) {
-        break missingId;
-      }
-
-      return new ActivityMyMapBinding(rootView, CardBtnAgain, GoogleMap, ProfileBtnCard, appBar,
-          card, cardPage, home, homeBtnCard, homePage, homebtnSetting, itemtotal, profile,
-          profilePage, settings, settingsPage, support, supportPage);
+      return new ActivityMyMapBinding((ConstraintLayout) rootView, mapSearch);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

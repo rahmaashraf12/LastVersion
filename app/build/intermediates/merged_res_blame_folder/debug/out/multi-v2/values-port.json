@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.foodtime.app-mergeDebugResources-31:/values-port/values-port.xml",
+            "outputFile": "com.example.foodtime.app-mergeDebugResources-33:/values-port/values-port.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\d5b9c9f8b75eed97c924b3b69a862b4b\\transformed\\car-ui-lib-2.0.0\\res\\values-port\\values.xml",
+                    "from": {
+                        "startLines": "4,7,8",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "212,426,491",
+                        "endColumns": "59,64,62",
+                        "endOffsets": "271,490,553"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "111,175,244",
+                        "endColumns": "63,68,66",
+                        "endOffsets": "170,239,306"
+                    }
+                },
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\e996fb6acbc9f67b000eae78132828cb\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
                     "from": {

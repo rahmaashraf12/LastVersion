@@ -7,6 +7,7 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable back_ground_search_view
 drawable background_category
 drawable background_intro
 drawable background_white
@@ -85,6 +86,7 @@ id home
 id homeBtn_Card
 id homePage
 id homebtn_setting
+id hybrid_map
 id imageView
 id imageView2
 id imageView5
@@ -98,7 +100,10 @@ id login_password
 id logout
 id mainLayout
 id map
+id mapSearch
 id minus_Card_Btn
+id none_map
+id normal_map
 id numberItemTxt
 id out_Google_Map
 id picCart
@@ -107,6 +112,7 @@ id priceTxt
 id profile
 id profilePage
 id recommended_title
+id satallite_map
 id scrollView2
 id scrollView3
 id settings
@@ -123,6 +129,7 @@ id support
 id supportPage
 id tax_Price
 id tax_View
+id terrian_map
 id textView
 id textView10
 id textView11
@@ -161,6 +168,7 @@ layout activity_signup
 layout viewholder_cart
 layout viewholder_category
 layout viewholder_recommended
+menu map_styles
 mipmap burger
 mipmap ic_launcher
 mipmap ic_launcher_round

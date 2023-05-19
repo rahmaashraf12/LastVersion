@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.foodtime.app-mergeDebugResources-31:/values-v23/values-v23.xml",
+            "outputFile": "com.example.foodtime.app-mergeDebugResources-33:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\a044de2c98b9d8345e8dd1b83fa07cd7\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

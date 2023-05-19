@@ -26,7 +26,7 @@
         android:id="@+id/login_email"
         android:layout_width="350dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:background="@drawable/background_category"
         android:hint="Enter email"
@@ -34,6 +34,7 @@
         android:paddingEnd="20dp"
         android:textAlignment="center"
         android:textColor="#000000"
+        android:textColorHint="#7B7B7B"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -41,18 +42,19 @@
         android:id="@+id/login_password"
         android:layout_width="350dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@drawable/background_category"
         android:drawablePadding="8dp"
-        android:hint="Enter Password"
 
+        android:hint="Enter Password"
         android:inputType="textPassword"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#000000"
+        android:textColorHint="#7B7B7B"
         android:textSize="20sp"
         android:textStyle="bold" />
 
