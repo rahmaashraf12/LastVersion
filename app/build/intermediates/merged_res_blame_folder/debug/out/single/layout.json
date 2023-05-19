@@ -1,50 +1,50 @@
 [
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\viewholder_category.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\viewholder_category.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\viewholder_recommended.xml",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\viewholder_recommended.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_show_detail.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_show_detail.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_show_detail.xml",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_show_detail.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\viewholder_cart.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\viewholder_cart.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_logout.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_logout.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_logout.xml",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_logout.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_signup.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_signup.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_my_map.xml",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_my_map.xml"
     },
     {
-        "merged": "com.example.foodtime.app-mergeDebugResources-34:/layout/activity_signup.xml",
-        "source": "com.example.foodtime.app-main-37:/layout/activity_signup.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\viewholder_cart.xml",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\viewholder_cart.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_cart.xml",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_cart.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_intro.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_intro.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_signup.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\viewholder_recommended.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\viewholder_recommended.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\viewholder_category.xml",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\viewholder_category.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_my_map.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_my_map.xml"
+        "merged": "com.example.foodtime.app-mergeDebugResources-34:/layout/activity_logout.xml",
+        "source": "com.example.foodtime.app-main-37:/layout/activity_logout.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_cart.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_cart.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-mergeDebugResources-34:\\layout\\activity_intro.xml",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\activity_intro.xml"
     }
 ]

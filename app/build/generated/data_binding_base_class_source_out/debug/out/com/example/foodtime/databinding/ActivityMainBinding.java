@@ -66,9 +66,6 @@ public final class ActivityMainBinding implements ViewBinding {
   public final LinearLayout homebtnSetting;
 
   @NonNull
-  public final ImageView imageView;
-
-  @NonNull
   public final ImageView imageView2;
 
   @NonNull
@@ -128,13 +125,13 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull ConstraintLayout constraintLayout, @NonNull CoordinatorLayout coordinatorLayout,
       @NonNull EditText editTextTextPersonName, @NonNull TextView home,
       @NonNull LinearLayout homeBtnCard, @NonNull ImageView homePage,
-      @NonNull LinearLayout homebtnSetting, @NonNull ImageView imageView,
-      @NonNull ImageView imageView2, @NonNull TextView profile, @NonNull ImageView profilePage,
-      @NonNull ScrollView scrollView3, @NonNull TextView settings, @NonNull ImageView settingsPage,
-      @NonNull TextView support, @NonNull ImageView supportPage, @NonNull TextView textView10,
-      @NonNull TextView textView11, @NonNull TextView textView12, @NonNull TextView textView5,
-      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textView8,
-      @NonNull TextView textView9, @NonNull RecyclerView view1, @NonNull RecyclerView view2) {
+      @NonNull LinearLayout homebtnSetting, @NonNull ImageView imageView2,
+      @NonNull TextView profile, @NonNull ImageView profilePage, @NonNull ScrollView scrollView3,
+      @NonNull TextView settings, @NonNull ImageView settingsPage, @NonNull TextView support,
+      @NonNull ImageView supportPage, @NonNull TextView textView10, @NonNull TextView textView11,
+      @NonNull TextView textView12, @NonNull TextView textView5, @NonNull TextView textView6,
+      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView textView9,
+      @NonNull RecyclerView view1, @NonNull RecyclerView view2) {
     this.rootView = rootView;
     this.CartBtn = CartBtn;
     this.GoogleMap = GoogleMap;
@@ -149,7 +146,6 @@ public final class ActivityMainBinding implements ViewBinding {
     this.homeBtnCard = homeBtnCard;
     this.homePage = homePage;
     this.homebtnSetting = homebtnSetting;
-    this.imageView = imageView;
     this.imageView2 = imageView2;
     this.profile = profile;
     this.profilePage = profilePage;
@@ -275,12 +271,6 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView;
-      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
-      if (imageView == null) {
-        break missingId;
-      }
-
       id = R.id.imageView2;
       ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
       if (imageView2 == null) {
@@ -391,10 +381,10 @@ public final class ActivityMainBinding implements ViewBinding {
 
       return new ActivityMainBinding((ConstraintLayout) rootView, CartBtn, GoogleMap,
           ProfileBtnCard, appBar, card, cardPage, constraintLayout, coordinatorLayout,
-          editTextTextPersonName, home, homeBtnCard, homePage, homebtnSetting, imageView,
-          imageView2, profile, profilePage, scrollView3, settings, settingsPage, support,
-          supportPage, textView10, textView11, textView12, textView5, textView6, textView7,
-          textView8, textView9, view1, view2);
+          editTextTextPersonName, home, homeBtnCard, homePage, homebtnSetting, imageView2, profile,
+          profilePage, scrollView3, settings, settingsPage, support, supportPage, textView10,
+          textView11, textView12, textView5, textView6, textView7, textView8, textView9, view1,
+          view2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,41 +4,24 @@
             "outputFile": "com.example.foodtime.app-mergeDebugResources-33:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\2033df00c88964735466d344a7495998\\transformed\\core-1.9.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\azuz\\.gradle\\caches\\transforms-3\\d5b9c9f8b75eed97c924b3b69a862b4b\\transformed\\car-ui-lib-2.0.0\\res\\values-en-rCA\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "216,310,396,481,603,702,797,916,1013,1116,1215,1318",
+                        "endColumns": "93,85,84,121,98,94,118,96,102,98,102,102",
+                        "endOffsets": "309,395,480,602,701,796,915,1012,1115,1214,1317,1420"
                     },
                     "to": {
-                        "startLines": "43",
-                        "startColumns": "4",
-                        "startOffsets": "4185",
-                        "endColumns": "100",
-                        "endOffsets": "4281"
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2762,2860,2950,3039,3165,3268,3367,3490,3591,3698,3801,3908",
+                        "endColumns": "97,89,88,125,102,98,122,100,106,102,106,106",
+                        "endOffsets": "2855,2945,3034,3160,3263,3362,3485,3586,3693,3796,3903,4010"
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\276fa4681766dd5221b86295b2099428\\transformed\\preference-1.1.1\\res\\values-en-rCA\\values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "105,192,361,441",
-                        "endColumns": "86,168,79,75",
-                        "endOffsets": "187,356,436,512"
-                    },
-                    "to": {
-                        "startLines": "41,44,45,46",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "4015,4286,4455,4535",
-                        "endColumns": "86,168,79,75",
-                        "endOffsets": "4097,4450,4530,4606"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\e996fb6acbc9f67b000eae78132828cb\\transformed\\appcompat-1.6.1\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\azuz\\.gradle\\caches\\transforms-3\\e996fb6acbc9f67b000eae78132828cb\\transformed\\appcompat-1.6.1\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,20 +38,37 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\d5b9c9f8b75eed97c924b3b69a862b4b\\transformed\\car-ui-lib-2.0.0\\res\\values-en-rCA\\values.xml",
+                    "source": "C:\\Users\\azuz\\.gradle\\caches\\transforms-3\\276fa4681766dd5221b86295b2099428\\transformed\\preference-1.1.1\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "216,310,396,481,603,702,797,916,1013,1116,1215,1318",
-                        "endColumns": "93,85,84,121,98,94,118,96,102,98,102,102",
-                        "endOffsets": "309,395,480,602,701,796,915,1012,1115,1214,1317,1420"
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "105,192,361,441",
+                        "endColumns": "86,168,79,75",
+                        "endOffsets": "187,356,436,512"
                     },
                     "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,37,38,39,40",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2762,2860,2950,3039,3165,3268,3367,3490,3591,3698,3801,3908",
-                        "endColumns": "97,89,88,125,102,98,122,100,106,102,106,106",
-                        "endOffsets": "2855,2945,3034,3160,3263,3362,3485,3586,3693,3796,3903,4010"
+                        "startLines": "41,44,45,46",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4015,4286,4455,4535",
+                        "endColumns": "86,168,79,75",
+                        "endOffsets": "4097,4450,4530,4606"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\azuz\\.gradle\\caches\\transforms-3\\2033df00c88964735466d344a7495998\\transformed\\core-1.9.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "43",
+                        "startColumns": "4",
+                        "startOffsets": "4185",
+                        "endColumns": "100",
+                        "endOffsets": "4281"
                     }
                 }
             ]

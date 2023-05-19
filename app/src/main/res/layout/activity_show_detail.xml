@@ -244,7 +244,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:layout_weight="0.5"
-                        android:background="@drawable/grey_btn_background"
+                        android:background="@drawable/yellow_btn_background"
                         android:elevation="5dp">
 
                         <TextView
@@ -253,7 +253,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
                             android:text="$19.50"
-                            android:textColor="#000000"
+                            android:textColor="#ffffff"
                             android:textSize="26dp"
                             android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="@+id/textView19"
@@ -267,7 +267,7 @@
                             android:layout_marginStart="16dp"
                             android:layout_marginTop="10dp"
                             android:text="Total Price :"
-                            android:textColor="#373b54"
+                            android:textColor="#ffffff"
                             android:textSize="18dp"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -411,7 +411,7 @@
                         android:id="@+id/support"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Support"
+                        android:text="Map"
                         android:textAlignment="center"
                         android:textColor="#676767"
                         android:textSize="12sp" />

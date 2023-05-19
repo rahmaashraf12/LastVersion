@@ -6,76 +6,76 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml
+8-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml
+9-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:62:5-79
-11-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:62:22-76
+11-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:62:5-79
+11-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:62:22-76
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:63:5-80
-12-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:63:22-78
+12-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:63:5-80
+12-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:63:22-78
 13
 14    <queries>
-14-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:26:5-31:15
+14-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:26:5-31:15
 15        <provider
-15-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:27:9-30:67
+15-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:27:9-30:67
 16            android:name="com.android.car.ui.plugin.PluginNameProvider"
-16-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:28:13-72
+16-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:28:13-72
 17            android:authorities="com.android.car.ui.plugin" />
-17-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:29:13-60
+17-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:29:13-60
 18        <!-- Needs to be explicitly declared on Android R+ -->
 19        <package android:name="com.google.android.apps.maps" />
-19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
-19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
 20    </queries> <!-- Include required permissions for Google Maps API to run. -->
 21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
-21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
 22    <uses-permission android:name="android.permission.INTERNET" />
-22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
-22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
 23
 24    <uses-feature
-24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
 25        android:glEsVersion="0x00020000"
-25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
 26        android:required="true" />
-26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
 27
 28    <permission
-28-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+28-->[androidx.core:core:1.9.0] C:\Users\azuz\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 29        android:name="com.example.foodtime.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-29-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+29-->[androidx.core:core:1.9.0] C:\Users\azuz\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 30        android:protectionLevel="signature" />
-30-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+30-->[androidx.core:core:1.9.0] C:\Users\azuz\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 31
 32    <uses-permission android:name="com.example.foodtime.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-32-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-32-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+32-->[androidx.core:core:1.9.0] C:\Users\azuz\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\azuz\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 33
 34    <application
-34-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:5:5-61:19
+34-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:5:5-61:19
 35        android:allowBackup="true"
-35-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:6:9-35
+35-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:6:9-35
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-36-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+36-->[androidx.core:core:1.9.0] C:\Users\azuz\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 37        android:dataExtractionRules="@xml/data_extraction_rules"
-37-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:7:9-65
+37-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:7:9-65
 38        android:debuggable="true"
 39        android:extractNativeLibs="false"
 40        android:fullBackupContent="@xml/backup_rules"
-40-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:8:9-54
+40-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:8:9-54
 41        android:icon="@mipmap/burger"
-41-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:9:9-38
+41-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:9:9-38
 42        android:label="@string/app_name"
-42-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:10:9-41
+42-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:10:9-41
 43        android:supportsRtl="true"
-43-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:11:9-35
+43-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:11:9-35
 44        android:testOnly="true"
 45        android:theme="@style/Theme.FoodTime" >
-45-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:12:9-46
+45-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:12:9-46
 46
 47        <!--
 48             TODO: Before you run your application, you need a Google Maps API key.
@@ -89,141 +89,141 @@
 56             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
 57        -->
 58        <meta-data
-58-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:26:9-28:71
+58-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:26:9-28:71
 59            android:name="com.google.android.geo.API_KEY"
-59-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:27:13-58
+59-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:27:13-58
 60            android:value="AIzaSyBdzndRZfH7oYXg_FzYKAI_vyBDDqPgm-o" />
-60-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:28:13-68
+60-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:28:13-68
 61
 62        <activity
-62-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:30:9-33:61
+62-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:30:9-33:61
 63            android:name="com.example.foodtime.Activity.My_Map_Activity"
-63-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:31:13-53
+63-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:31:13-53
 64            android:exported="true"
-64-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:32:13-36
+64-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:32:13-36
 65            android:label="@string/title_activity_my_map" />
-65-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:33:13-58
+65-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:33:13-58
 66        <activity
-66-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:34:9-36:40
+66-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:34:9-36:40
 67            android:name="com.example.foodtime.Activity.LogoutActivity"
-67-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:35:13-52
+67-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:35:13-52
 68            android:exported="false" />
-68-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:36:13-37
+68-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:36:13-37
 69        <activity
-69-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:37:9-39:40
+69-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:37:9-39:40
 70            android:name="com.example.foodtime.Activity.SignupActivity"
-70-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:38:13-52
+70-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:38:13-52
 71            android:exported="false" />
-71-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:39:13-37
+71-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:39:13-37
 72        <activity
-72-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:40:9-42:40
+72-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:40:9-42:40
 73            android:name="com.example.foodtime.Activity.showDetailActivity"
-73-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:41:13-56
+73-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:41:13-56
 74            android:exported="false" />
-74-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:42:13-37
+74-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:42:13-37
 75        <activity
-75-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:43:9-45:40
+75-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:43:9-45:40
 76            android:name="com.example.foodtime.Activity.CartActivity"
-76-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:44:13-50
+76-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:44:13-50
 77            android:exported="false" />
-77-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:45:13-37
+77-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:45:13-37
 78        <activity
-78-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:46:9-48:40
+78-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:46:9-48:40
 79            android:name="com.example.foodtime.Activity.MainActivity"
-79-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:47:13-50
+79-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:47:13-50
 80            android:exported="false" />
-80-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:48:13-37
+80-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:48:13-37
 81        <activity
-81-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:49:9-51:39
+81-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:49:9-51:39
 82            android:name="com.example.foodtime.Activity.IntroActivity"
-82-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:50:13-51
+82-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:50:13-51
 83            android:exported="false" />
-83-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:51:13-37
+83-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:51:13-37
 84        <activity
-84-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:52:9-60:20
+84-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:52:9-60:20
 85            android:name="com.example.foodtime.Activity.loginActivity"
-85-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:53:13-51
+85-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:53:13-51
 86            android:exported="true" >
-86-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:54:13-36
+86-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:54:13-36
 87            <intent-filter>
-87-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:55:13-59:29
+87-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:55:13-59:29
 88                <action android:name="android.intent.action.MAIN" />
-88-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:56:17-69
-88-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:56:25-66
+88-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:56:17-69
+88-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:56:25-66
 89
 90                <category android:name="android.intent.category.LAUNCHER" />
-90-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:58:17-77
-90-->C:\Users\DELL\Desktop\Android_Project-project\app\src\main\AndroidManifest.xml:58:27-74
+90-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:58:17-77
+90-->E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:58:27-74
 91            </intent-filter>
 92        </activity>
 93
 94        <provider
-94-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:34:9-39:71
+94-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:34:9-39:71
 95            android:name="com.android.car.ui.core.CarUiInstaller"
-95-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:35:13-66
+95-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:35:13-66
 96            android:authorities="com.example.foodtime.CarUiInstaller"
-96-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:36:13-66
+96-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:36:13-66
 97            android:directBootAware="true"
-97-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:37:13-43
+97-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:37:13-43
 98            android:exported="false"
-98-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:38:13-37
+98-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:38:13-37
 99            android:process="@string/car_ui_installer_process_name" />
-99-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:39:13-68
+99-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:39:13-68
 100        <provider
-100-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:40:9-45:79
+100-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:40:9-45:79
 101            android:name="com.android.car.ui.core.SearchResultsProvider"
-101-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:41:13-73
+101-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:41:13-73
 102            android:authorities="com.example.foodtime.SearchResultsProvider"
-102-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:42:13-73
+102-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:42:13-73
 103            android:exported="true"
-103-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:43:13-36
+103-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:43:13-36
 104            android:process="@string/car_ui_installer_process_name"
-104-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:44:13-68
+104-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:44:13-68
 105            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" /> <!-- Needs to be explicitly declared on P+ -->
-105-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:45:13-76
+105-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:45:13-76
 106        <uses-library
-106-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+106-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
 107            android:name="org.apache.http.legacy"
-107-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+107-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
 108            android:required="false" />
-108-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+108-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\08617ebb6f83777ccd34cc30d290d56f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
 109
 110        <activity
-110-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\f91dd8c64a5816fb6ed3e905228eab35\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+110-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\f91dd8c64a5816fb6ed3e905228eab35\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
 111            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-111-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\f91dd8c64a5816fb6ed3e905228eab35\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+111-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\f91dd8c64a5816fb6ed3e905228eab35\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
 112            android:exported="false"
-112-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\f91dd8c64a5816fb6ed3e905228eab35\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+112-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\f91dd8c64a5816fb6ed3e905228eab35\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
 113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-113-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\f91dd8c64a5816fb6ed3e905228eab35\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+113-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\f91dd8c64a5816fb6ed3e905228eab35\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
 114
 115        <meta-data
-115-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\b215599a1ff75aa4b38b84b805169a81\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+115-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\b215599a1ff75aa4b38b84b805169a81\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 116            android:name="com.google.android.gms.version"
-116-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\b215599a1ff75aa4b38b84b805169a81\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+116-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\b215599a1ff75aa4b38b84b805169a81\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
 117            android:value="@integer/google_play_services_version" />
-117-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\b215599a1ff75aa4b38b84b805169a81\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+117-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\azuz\.gradle\caches\transforms-3\b215599a1ff75aa4b38b84b805169a81\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
 118
 119        <provider
-119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\azuz\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 120            android:name="androidx.startup.InitializationProvider"
-120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\azuz\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 121            android:authorities="com.example.foodtime.androidx-startup"
-121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\azuz\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 122            android:exported="false" >
-122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\azuz\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 123            <meta-data
-123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\azuz\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\azuz\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 125                android:value="androidx.startup" />
-125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\azuz\.gradle\caches\transforms-3\11fcfac137e125697c613e39357dafde\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 126            <meta-data
-126-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+126-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\azuz\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-127-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+127-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\azuz\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 128                android:value="androidx.startup" />
-128-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+128-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\azuz\.gradle\caches\transforms-3\82aa4e2be19cd579e54c2d64889c1a1b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 129        </provider>
 130    </application>
 131

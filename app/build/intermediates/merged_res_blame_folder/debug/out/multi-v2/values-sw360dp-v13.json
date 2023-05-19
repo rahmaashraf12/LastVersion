@@ -4,7 +4,7 @@
             "outputFile": "com.example.foodtime.app-mergeDebugResources-33:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\276fa4681766dd5221b86295b2099428\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\azuz\\.gradle\\caches\\transforms-3\\276fa4681766dd5221b86295b2099428\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

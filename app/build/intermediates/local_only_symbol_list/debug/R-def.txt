@@ -37,8 +37,9 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable juice
 drawable logo
+drawable logo1
+drawable logo2
 drawable logodesign
-drawable logs
 drawable minus
 drawable orange_background
 drawable pizza1
@@ -87,7 +88,6 @@ id homeBtn_Card
 id homePage
 id homebtn_setting
 id hybrid_map
-id imageView
 id imageView2
 id imageView5
 id imageView6

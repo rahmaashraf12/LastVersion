@@ -60,13 +60,13 @@ public class MainActivity extends AppCompatActivity {
         recyclerViewpopularlist.setLayoutManager(linearLayoutManager);
 
         ArrayList<FoodDomain> foodlist = new ArrayList<>();
-        foodlist.add(new FoodDomain("Pepperoni Pizza","pizza1",
+        foodlist.add(new FoodDomain("Pepperoni Burger","food1",
                 "slices pepperoni , mozzeralla cheese, fresh oregano, ground black pepper, pizza sauce",
                 13.0,5,20,1000));
-        foodlist.add(new FoodDomain("Cheese Burger","burger",
+        foodlist.add(new FoodDomain("Pancake","food2",
                 "Beef, Gouda Cheese , Special Sauce , Lettuce , tomato",
                 15.20,4,18,1500));
-        foodlist.add(new FoodDomain("Vegetable Pizza","pizza3",
+        foodlist.add(new FoodDomain("Fresh Juice","juice",
                 "Olive Oil , Vegetable Oil , Pitted Kalamata , Cherry Tomatoes , Fresh Oregano , Basil",
                 11.0,3,16,800));
 

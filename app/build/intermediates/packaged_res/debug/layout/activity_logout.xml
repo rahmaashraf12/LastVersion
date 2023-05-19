@@ -3,18 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="900dp"
     tools:context=".Activity.LogoutActivity"
+    android:background="@drawable/logo2"
     android:orientation="vertical">
 
     <Button
         android:id="@+id/logout"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="90dp"
         android:text="LOGOUT"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"></Button>
@@ -133,7 +135,7 @@
                         android:id="@+id/support"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Support"
+                        android:text="Map"
                         android:textAlignment="center"
                         android:textColor="#676767"
                         android:textSize="12sp" />

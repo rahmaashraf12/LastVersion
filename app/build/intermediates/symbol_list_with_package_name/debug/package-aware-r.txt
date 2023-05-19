@@ -3403,8 +3403,9 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable juice
 drawable logo
+drawable logo1
+drawable logo2
 drawable logodesign
-drawable logs
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3855,7 +3856,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id imageView2
 id imageView5
 id imageView6
