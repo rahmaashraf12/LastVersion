@@ -12,10 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe7dae00-4b32-4fd9-91cb-2ca1a045228f" name="Changes" comment="New Version of Android App">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_logout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_logout.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fe7dae00-4b32-4fd9-91cb-2ca1a045228f" name="Changes" comment="New Version of Android App" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
