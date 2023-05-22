@@ -30,9 +30,6 @@ public final class ActivityShowDetailBinding implements ViewBinding {
   public final LinearLayout GoogleMap;
 
   @NonNull
-  public final LinearLayout ProfileBtnCard;
-
-  @NonNull
   public final TextView addToCartBtn;
 
   @NonNull
@@ -96,12 +93,6 @@ public final class ActivityShowDetailBinding implements ViewBinding {
   public final TextView priceTxt;
 
   @NonNull
-  public final TextView profile;
-
-  @NonNull
-  public final ImageView profilePage;
-
-  @NonNull
   public final TextView settings;
 
   @NonNull
@@ -133,23 +124,22 @@ public final class ActivityShowDetailBinding implements ViewBinding {
 
   private ActivityShowDetailBinding(@NonNull ConstraintLayout rootView,
       @NonNull LinearLayout CardBtnAgain, @NonNull LinearLayout GoogleMap,
-      @NonNull LinearLayout ProfileBtnCard, @NonNull TextView addToCartBtn,
-      @NonNull BottomAppBar appBar, @NonNull ImageView caloriesImage, @NonNull TextView caloriesTxt,
-      @NonNull TextView card, @NonNull ImageView cardPage,
-      @NonNull ConstraintLayout constraintLayout2, @NonNull ConstraintLayout constraintLayout3,
-      @NonNull TextView describtionTxt, @NonNull ImageView foodPic, @NonNull TextView foodTitle,
-      @NonNull TextView home, @NonNull LinearLayout homeBtnCard, @NonNull ImageView homePage,
+      @NonNull TextView addToCartBtn, @NonNull BottomAppBar appBar,
+      @NonNull ImageView caloriesImage, @NonNull TextView caloriesTxt, @NonNull TextView card,
+      @NonNull ImageView cardPage, @NonNull ConstraintLayout constraintLayout2,
+      @NonNull ConstraintLayout constraintLayout3, @NonNull TextView describtionTxt,
+      @NonNull ImageView foodPic, @NonNull TextView foodTitle, @NonNull TextView home,
+      @NonNull LinearLayout homeBtnCard, @NonNull ImageView homePage,
       @NonNull LinearLayout homebtnSetting, @NonNull ImageView imageView5,
       @NonNull CoordinatorLayout itemtotal, @NonNull ImageView minusCardBtn,
       @NonNull TextView numberItemTxt, @NonNull ImageView plusCardBtn, @NonNull TextView priceTxt,
-      @NonNull TextView profile, @NonNull ImageView profilePage, @NonNull TextView settings,
-      @NonNull ImageView settingsPage, @NonNull ImageView starImage, @NonNull TextView starTxt,
-      @NonNull TextView support, @NonNull ImageView supportPage, @NonNull TextView textView19,
-      @NonNull ImageView timeImage, @NonNull TextView timeTxt, @NonNull TextView totalPriceTxt) {
+      @NonNull TextView settings, @NonNull ImageView settingsPage, @NonNull ImageView starImage,
+      @NonNull TextView starTxt, @NonNull TextView support, @NonNull ImageView supportPage,
+      @NonNull TextView textView19, @NonNull ImageView timeImage, @NonNull TextView timeTxt,
+      @NonNull TextView totalPriceTxt) {
     this.rootView = rootView;
     this.CardBtnAgain = CardBtnAgain;
     this.GoogleMap = GoogleMap;
-    this.ProfileBtnCard = ProfileBtnCard;
     this.addToCartBtn = addToCartBtn;
     this.appBar = appBar;
     this.caloriesImage = caloriesImage;
@@ -171,8 +161,6 @@ public final class ActivityShowDetailBinding implements ViewBinding {
     this.numberItemTxt = numberItemTxt;
     this.plusCardBtn = plusCardBtn;
     this.priceTxt = priceTxt;
-    this.profile = profile;
-    this.profilePage = profilePage;
     this.settings = settings;
     this.settingsPage = settingsPage;
     this.starImage = starImage;
@@ -221,12 +209,6 @@ public final class ActivityShowDetailBinding implements ViewBinding {
       id = R.id.Google_Map;
       LinearLayout GoogleMap = ViewBindings.findChildViewById(rootView, id);
       if (GoogleMap == null) {
-        break missingId;
-      }
-
-      id = R.id.ProfileBtn_Card;
-      LinearLayout ProfileBtnCard = ViewBindings.findChildViewById(rootView, id);
-      if (ProfileBtnCard == null) {
         break missingId;
       }
 
@@ -356,18 +338,6 @@ public final class ActivityShowDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.profile;
-      TextView profile = ViewBindings.findChildViewById(rootView, id);
-      if (profile == null) {
-        break missingId;
-      }
-
-      id = R.id.profilePage;
-      ImageView profilePage = ViewBindings.findChildViewById(rootView, id);
-      if (profilePage == null) {
-        break missingId;
-      }
-
       id = R.id.settings;
       TextView settings = ViewBindings.findChildViewById(rootView, id);
       if (settings == null) {
@@ -429,11 +399,11 @@ public final class ActivityShowDetailBinding implements ViewBinding {
       }
 
       return new ActivityShowDetailBinding((ConstraintLayout) rootView, CardBtnAgain, GoogleMap,
-          ProfileBtnCard, addToCartBtn, appBar, caloriesImage, caloriesTxt, card, cardPage,
-          constraintLayout2, constraintLayout3, describtionTxt, foodPic, foodTitle, home,
-          homeBtnCard, homePage, homebtnSetting, imageView5, itemtotal, minusCardBtn, numberItemTxt,
-          plusCardBtn, priceTxt, profile, profilePage, settings, settingsPage, starImage, starTxt,
-          support, supportPage, textView19, timeImage, timeTxt, totalPriceTxt);
+          addToCartBtn, appBar, caloriesImage, caloriesTxt, card, cardPage, constraintLayout2,
+          constraintLayout3, describtionTxt, foodPic, foodTitle, home, homeBtnCard, homePage,
+          homebtnSetting, imageView5, itemtotal, minusCardBtn, numberItemTxt, plusCardBtn, priceTxt,
+          settings, settingsPage, starImage, starTxt, support, supportPage, textView19, timeImage,
+          timeTxt, totalPriceTxt);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

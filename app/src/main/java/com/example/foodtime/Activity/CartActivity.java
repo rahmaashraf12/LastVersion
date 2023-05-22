@@ -41,6 +41,7 @@ public class CartActivity extends AppCompatActivity {
         LinearLayout map = findViewById(R.id.Google_Map);
         LinearLayout setteings = findViewById(R.id.homebtn_setting);
 
+
         homeBtn.setOnClickListener((v -> {
             startActivity(new Intent(CartActivity.this,MainActivity.class));
         }));
@@ -56,6 +57,7 @@ public class CartActivity extends AppCompatActivity {
         setteings.setOnClickListener((v -> {
             startActivity(new Intent(CartActivity.this,LogoutActivity.class));
         }));
+
     }
 
     private void initList() {

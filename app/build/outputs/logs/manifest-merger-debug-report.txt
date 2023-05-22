@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-65:12
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-68:12
 MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\azuz\.gradle\caches\transforms-3\80aaf3ef37f9894d21ce7e91b6389c77\transformed\viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\azuz\.gradle\caches\transforms-3\d23587c4a262c20f273198665f435022\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
 MERGED from [com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:17:1-48:12
@@ -55,27 +55,35 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\azuz\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\azuz\.gradle\caches\transforms-3\158d640c272dcbb64d7aefaa1c6a33a5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\azuz\.gradle\caches\transforms-3\7b9cb8d14cbe6b2dac1c137f6ae299ba\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\azuz\.gradle\caches\transforms-3\76fbf5c4908dd6b9897dcfd3f501ed43\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-68:12
 	package
 		INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-65:12
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-65:12
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-65:12
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:5:5-61:19
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:8:5-66:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\azuz\.gradle\caches\transforms-3\d23587c4a262c20f273198665f435022\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\azuz\.gradle\caches\transforms-3\d23587c4a262c20f273198665f435022\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.android.car.ui:car-ui-lib:2.0.0] C:\Users\azuz\.gradle\caches\transforms-3\d5b9c9f8b75eed97c924b3b69a862b4b\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:33:5-46:19
@@ -109,95 +117,93 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\az
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\azuz\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:13:9-41
 	android:fullBackupContent
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:11:9-54
 	tools:targetApi
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:13:9-29
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:9:9-38
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:12:9-38
 	android:allowBackup
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:12:9-46
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:15:9-46
 	android:dataExtractionRules
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:7:9-65
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:10:9-65
+activity#com.example.foodtime.PaymentActivity
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:18:13-44
 meta-data#com.google.android.geo.API_KEY
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:26:9-28:71
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:31:9-33:71
 	android:value
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:28:13-68
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:33:13-68
 	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:27:13-58
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:32:13-58
 activity#com.example.foodtime.Activity.My_Map_Activity
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:30:9-33:61
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:35:9-38:61
 	android:label
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:33:13-58
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:38:13-58
 	android:exported
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:32:13-36
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:31:13-53
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:36:13-53
 activity#com.example.foodtime.Activity.LogoutActivity
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:34:9-36:40
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:39:9-41:40
 	android:exported
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:35:13-52
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:40:13-52
 activity#com.example.foodtime.Activity.SignupActivity
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:37:9-39:40
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:42:9-44:40
 	android:exported
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:38:13-52
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:43:13-52
 activity#com.example.foodtime.Activity.showDetailActivity
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:40:9-42:40
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:45:9-47:40
 	android:exported
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:42:13-37
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:41:13-56
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:46:13-56
 activity#com.example.foodtime.Activity.CartActivity
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:43:9-45:40
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:48:9-50:40
 	android:exported
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:45:13-37
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:50:13-37
 	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:44:13-50
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:49:13-50
 activity#com.example.foodtime.Activity.MainActivity
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:46:9-48:40
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:51:9-53:40
 	android:exported
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:48:13-37
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:47:13-50
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:52:13-50
 activity#com.example.foodtime.Activity.IntroActivity
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:49:9-51:39
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:54:9-56:40
 	android:exported
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:51:13-37
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:56:13-37
 	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:50:13-51
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:55:13-51
 activity#com.example.foodtime.Activity.loginActivity
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:52:9-60:20
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:57:9-65:20
 	android:exported
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:54:13-36
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:59:13-36
 	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:53:13-51
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:58:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:55:13-59:29
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:60:13-64:29
 action#android.intent.action.MAIN
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:56:17-69
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:56:25-66
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:61:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:58:17-77
+ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:63:17-77
 	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:58:27-74
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:62:5-79
-	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:62:22-76
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:63:5-80
-	android:name
-		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:63:22-78
+		ADDED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml:63:27-74
 uses-sdk
 INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\FinalAndroid\Android_Application_Project\app\src\main\AndroidManifest.xml

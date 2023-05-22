@@ -73,8 +73,8 @@
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="16dp"
                     android:text="W E L C O M E"
-                    android:textColor="#ff3d00"
-                    android:textSize="30sp"
+                    android:textColor=" #c46c00"
+                    android:textSize="45sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -98,7 +98,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/logodesign"
+                        android:src="@drawable/flogo"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
@@ -112,7 +112,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="30dp"
-                        android:text="may 10 - june 10"
+
                         android:textColor="#671f00"
                         android:textSize="22sp"
                         app:layout_constraintEnd_toEndOf="@+id/textView7"
@@ -126,7 +126,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="32dp"
                         android:layout_marginEnd="36dp"
-                        android:text="Up   to   49% off"
+
                         android:textColor="#671f00"
                         android:textSize="25sp"
                         android:textStyle="bold"
@@ -136,7 +136,7 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="117dp"
                         android:layout_height="36dp"
-                        android:background="@drawable/orange_background"
+
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="@+id/textView8"
                         app:layout_constraintHorizontal_bias="0.674"
@@ -144,21 +144,7 @@
                         app:layout_constraintTop_toBottomOf="@+id/textView8"
                         app:layout_constraintVertical_bias="0.159">
 
-                        <TextView
-                            android:id="@+id/textView9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="16dp"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="16dp"
-                            android:layout_marginBottom="8dp"
-                            android:text="Order Now"
-                            android:textColor="#ffffff"
-                            android:textSize="18sp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -168,9 +154,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:text="Order anything now"
-                    android:textColor="#000000"
-                    android:textSize="30sp"
+                    android:text="NOW \nOFFER 30% on FOODS"
+                    android:textColor="#671f00"
+                    android:textSize="40sp"
                     app:layout_constraintStart_toStartOf="@+id/textView5"
                     app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -179,14 +165,14 @@
                     android:layout_width="375dp"
                     android:layout_height="53dp"
                     android:layout_marginTop="4dp"
-                    android:background="@drawable/search_edit_background"
+                    android:background="@drawable/orange_background"
                     android:drawableStart="@drawable/search"
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:hint="Search for Your Favorite Food"
                     android:inputType="textPersonName"
                     android:paddingStart="18dp"
-                    android:textColor="#000000"
+                    android:textColor="#ffffff"
                     android:textSize="20sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
@@ -274,28 +260,7 @@
                         android:textSize="12sp" />
                 </LinearLayout>
 
-                <LinearLayout
-                    android:id="@+id/ProfileBtn_Card"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0.2"
-                    android:orientation="vertical">
 
-                    <ImageView
-                        android:id="@+id/profilePage"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/bottom_btn2" />
-
-                    <TextView
-                        android:id="@+id/profile"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Profile"
-                        android:textAlignment="center"
-                        android:textColor="#676767"
-                        android:textSize="12sp" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/CartBtn"
@@ -334,7 +299,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/bottom_btn3" />
+                        app:srcCompat="@drawable/map" />
 
                     <TextView
                         android:id="@+id/support"

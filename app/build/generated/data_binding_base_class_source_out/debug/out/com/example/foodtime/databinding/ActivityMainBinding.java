@@ -33,9 +33,6 @@ public final class ActivityMainBinding implements ViewBinding {
   public final LinearLayout GoogleMap;
 
   @NonNull
-  public final LinearLayout ProfileBtnCard;
-
-  @NonNull
   public final BottomAppBar appBar;
 
   @NonNull
@@ -67,12 +64,6 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final ImageView imageView2;
-
-  @NonNull
-  public final TextView profile;
-
-  @NonNull
-  public final ImageView profilePage;
 
   @NonNull
   public final ScrollView scrollView3;
@@ -111,31 +102,25 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView textView8;
 
   @NonNull
-  public final TextView textView9;
-
-  @NonNull
   public final RecyclerView view1;
 
   @NonNull
   public final RecyclerView view2;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull LinearLayout CartBtn,
-      @NonNull LinearLayout GoogleMap, @NonNull LinearLayout ProfileBtnCard,
-      @NonNull BottomAppBar appBar, @NonNull TextView card, @NonNull ImageView cardPage,
-      @NonNull ConstraintLayout constraintLayout, @NonNull CoordinatorLayout coordinatorLayout,
-      @NonNull EditText editTextTextPersonName, @NonNull TextView home,
-      @NonNull LinearLayout homeBtnCard, @NonNull ImageView homePage,
+      @NonNull LinearLayout GoogleMap, @NonNull BottomAppBar appBar, @NonNull TextView card,
+      @NonNull ImageView cardPage, @NonNull ConstraintLayout constraintLayout,
+      @NonNull CoordinatorLayout coordinatorLayout, @NonNull EditText editTextTextPersonName,
+      @NonNull TextView home, @NonNull LinearLayout homeBtnCard, @NonNull ImageView homePage,
       @NonNull LinearLayout homebtnSetting, @NonNull ImageView imageView2,
-      @NonNull TextView profile, @NonNull ImageView profilePage, @NonNull ScrollView scrollView3,
-      @NonNull TextView settings, @NonNull ImageView settingsPage, @NonNull TextView support,
-      @NonNull ImageView supportPage, @NonNull TextView textView10, @NonNull TextView textView11,
-      @NonNull TextView textView12, @NonNull TextView textView5, @NonNull TextView textView6,
-      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView textView9,
+      @NonNull ScrollView scrollView3, @NonNull TextView settings, @NonNull ImageView settingsPage,
+      @NonNull TextView support, @NonNull ImageView supportPage, @NonNull TextView textView10,
+      @NonNull TextView textView11, @NonNull TextView textView12, @NonNull TextView textView5,
+      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textView8,
       @NonNull RecyclerView view1, @NonNull RecyclerView view2) {
     this.rootView = rootView;
     this.CartBtn = CartBtn;
     this.GoogleMap = GoogleMap;
-    this.ProfileBtnCard = ProfileBtnCard;
     this.appBar = appBar;
     this.card = card;
     this.cardPage = cardPage;
@@ -147,8 +132,6 @@ public final class ActivityMainBinding implements ViewBinding {
     this.homePage = homePage;
     this.homebtnSetting = homebtnSetting;
     this.imageView2 = imageView2;
-    this.profile = profile;
-    this.profilePage = profilePage;
     this.scrollView3 = scrollView3;
     this.settings = settings;
     this.settingsPage = settingsPage;
@@ -161,7 +144,6 @@ public final class ActivityMainBinding implements ViewBinding {
     this.textView6 = textView6;
     this.textView7 = textView7;
     this.textView8 = textView8;
-    this.textView9 = textView9;
     this.view1 = view1;
     this.view2 = view2;
   }
@@ -202,12 +184,6 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.Google_Map;
       LinearLayout GoogleMap = ViewBindings.findChildViewById(rootView, id);
       if (GoogleMap == null) {
-        break missingId;
-      }
-
-      id = R.id.ProfileBtn_Card;
-      LinearLayout ProfileBtnCard = ViewBindings.findChildViewById(rootView, id);
-      if (ProfileBtnCard == null) {
         break missingId;
       }
 
@@ -274,18 +250,6 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.imageView2;
       ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
       if (imageView2 == null) {
-        break missingId;
-      }
-
-      id = R.id.profile;
-      TextView profile = ViewBindings.findChildViewById(rootView, id);
-      if (profile == null) {
-        break missingId;
-      }
-
-      id = R.id.profilePage;
-      ImageView profilePage = ViewBindings.findChildViewById(rootView, id);
-      if (profilePage == null) {
         break missingId;
       }
 
@@ -361,12 +325,6 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView9;
-      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
-      if (textView9 == null) {
-        break missingId;
-      }
-
       id = R.id.view1;
       RecyclerView view1 = ViewBindings.findChildViewById(rootView, id);
       if (view1 == null) {
@@ -379,12 +337,11 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, CartBtn, GoogleMap,
-          ProfileBtnCard, appBar, card, cardPage, constraintLayout, coordinatorLayout,
-          editTextTextPersonName, home, homeBtnCard, homePage, homebtnSetting, imageView2, profile,
-          profilePage, scrollView3, settings, settingsPage, support, supportPage, textView10,
-          textView11, textView12, textView5, textView6, textView7, textView8, textView9, view1,
-          view2);
+      return new ActivityMainBinding((ConstraintLayout) rootView, CartBtn, GoogleMap, appBar, card,
+          cardPage, constraintLayout, coordinatorLayout, editTextTextPersonName, home, homeBtnCard,
+          homePage, homebtnSetting, imageView2, scrollView3, settings, settingsPage, support,
+          supportPage, textView10, textView11, textView12, textView5, textView6, textView7,
+          textView8, view1, view2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

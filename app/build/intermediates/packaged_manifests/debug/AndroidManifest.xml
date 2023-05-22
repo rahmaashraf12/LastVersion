@@ -43,7 +43,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FoodTime" >
-
+        <activity
+            android:name="com.example.foodtime.PaymentActivity"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 

@@ -119,7 +119,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="3"
-                        android:text="Tax:"
+                        android:text="Tax Fee:"
                         android:textColor="#373b54"
                         android:textSize="22dp"
                         android:textStyle="bold" />
@@ -177,6 +177,7 @@
             </LinearLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/paymentbtn"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_margin="20dp"
@@ -186,7 +187,7 @@
                     android:id="@+id/textView13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CheckOut"
+                    android:text="Payment"
                     android:textColor="#ffffff"
                     android:textSize="28sp"
                     android:textStyle="bold"
@@ -261,28 +262,7 @@
                         android:textSize="12sp" />
                 </LinearLayout>
 
-                <LinearLayout
-                    android:id="@+id/ProfileBtn_Card"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0.2"
-                    android:orientation="vertical">
 
-                    <ImageView
-                        android:id="@+id/profilePage"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/bottom_btn2" />
-
-                    <TextView
-                        android:id="@+id/profile"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Profile"
-                        android:textAlignment="center"
-                        android:textColor="#676767"
-                        android:textSize="12sp" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/CardBtn_again"
@@ -320,8 +300,8 @@
                         android:id="@+id/supportPage"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        app:srcCompat="@drawable/bottom_btn3" />
+                        android:layout_weight="3"
+                        app:srcCompat="@drawable/map" />
 
                     <TextView
                         android:id="@+id/support"

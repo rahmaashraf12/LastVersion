@@ -52,6 +52,12 @@ public final class ActivityLogoutBinding implements ViewBinding {
   public final LinearLayout homebtnSetting;
 
   @NonNull
+  public final ImageView imageView6;
+
+  @NonNull
+  public final ImageView imageView7;
+
+  @NonNull
   public final CoordinatorLayout itemtotal;
 
   @NonNull
@@ -78,14 +84,18 @@ public final class ActivityLogoutBinding implements ViewBinding {
   @NonNull
   public final ImageView supportPage;
 
+  @NonNull
+  public final TextView textView;
+
   private ActivityLogoutBinding(@NonNull ConstraintLayout rootView,
       @NonNull LinearLayout CardBtnAgain, @NonNull LinearLayout ProfileBtnCard,
       @NonNull BottomAppBar appBar, @NonNull TextView card, @NonNull ImageView cardPage,
       @NonNull TextView home, @NonNull LinearLayout homeBtnCard, @NonNull ImageView homePage,
-      @NonNull LinearLayout homebtnSetting, @NonNull CoordinatorLayout itemtotal,
-      @NonNull Button logout, @NonNull LinearLayout outGoogleMap, @NonNull TextView profile,
-      @NonNull ImageView profilePage, @NonNull TextView settings, @NonNull ImageView settingsPage,
-      @NonNull TextView support, @NonNull ImageView supportPage) {
+      @NonNull LinearLayout homebtnSetting, @NonNull ImageView imageView6,
+      @NonNull ImageView imageView7, @NonNull CoordinatorLayout itemtotal, @NonNull Button logout,
+      @NonNull LinearLayout outGoogleMap, @NonNull TextView profile, @NonNull ImageView profilePage,
+      @NonNull TextView settings, @NonNull ImageView settingsPage, @NonNull TextView support,
+      @NonNull ImageView supportPage, @NonNull TextView textView) {
     this.rootView = rootView;
     this.CardBtnAgain = CardBtnAgain;
     this.ProfileBtnCard = ProfileBtnCard;
@@ -96,6 +106,8 @@ public final class ActivityLogoutBinding implements ViewBinding {
     this.homeBtnCard = homeBtnCard;
     this.homePage = homePage;
     this.homebtnSetting = homebtnSetting;
+    this.imageView6 = imageView6;
+    this.imageView7 = imageView7;
     this.itemtotal = itemtotal;
     this.logout = logout;
     this.outGoogleMap = outGoogleMap;
@@ -105,6 +117,7 @@ public final class ActivityLogoutBinding implements ViewBinding {
     this.settingsPage = settingsPage;
     this.support = support;
     this.supportPage = supportPage;
+    this.textView = textView;
   }
 
   @Override
@@ -188,6 +201,18 @@ public final class ActivityLogoutBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView6;
+      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView7;
+      ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView7 == null) {
+        break missingId;
+      }
+
       id = R.id.itemtotal;
       CoordinatorLayout itemtotal = ViewBindings.findChildViewById(rootView, id);
       if (itemtotal == null) {
@@ -242,9 +267,16 @@ public final class ActivityLogoutBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
       return new ActivityLogoutBinding((ConstraintLayout) rootView, CardBtnAgain, ProfileBtnCard,
-          appBar, card, cardPage, home, homeBtnCard, homePage, homebtnSetting, itemtotal, logout,
-          outGoogleMap, profile, profilePage, settings, settingsPage, support, supportPage);
+          appBar, card, cardPage, home, homeBtnCard, homePage, homebtnSetting, imageView6,
+          imageView7, itemtotal, logout, outGoogleMap, profile, profilePage, settings, settingsPage,
+          support, supportPage, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

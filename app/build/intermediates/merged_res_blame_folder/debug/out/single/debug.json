@@ -1,27 +1,27 @@
 [
     {
-        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-xhdpi_bottom_btn3.png.flat",
-        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-xhdpi\\bottom_btn3.png"
-    },
-    {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-xhdpi_chronometer.png.flat",
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-xhdpi\\chronometer.png"
+    },
+    {
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-xhdpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-xhdpi\\bottom_btn3.png"
     },
     {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-ldpi_cat_3.png.flat",
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-ldpi\\cat_3.png"
     },
     {
-        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\layout_viewholder_category.xml.flat",
-        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\viewholder_category.xml"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-ldpi_minus.png.flat",
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-ldpi\\minus.png"
     },
     {
-        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\layout_viewholder_category.xml.flat",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\viewholder_category.xml"
     },
     {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-mdpi_burger_large.png.flat",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-mdpi\\plus_circle.png"
     },
     {
-        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-ldpi_bottom_btn5.png.flat",
-        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-ldpi\\bottom_btn5.png"
-    },
-    {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-ldpi_search.png.flat",
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-ldpi\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-ldpi_bottom_btn5.png.flat",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-ldpi\\bottom_btn5.png"
     },
     {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-ldpi_banner.png.flat",
@@ -112,12 +112,12 @@
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-xhdpi\\logo.png"
     },
     {
-        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\layout_viewholder_recommended.xml.flat",
-        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\viewholder_recommended.xml"
-    },
-    {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-ldpi_cat_1.png.flat",
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-ldpi\\cat_1.png"
+    },
+    {
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\layout_viewholder_recommended.xml.flat",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\layout\\viewholder_recommended.xml"
     },
     {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-xhdpi_cart_white.png.flat",
@@ -196,12 +196,12 @@
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable\\juice.jpg"
     },
     {
-        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-mdpi_bottom_btn2.png.flat",
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-mdpi\\bottom_btn2.png"
+    },
+    {
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-xxhdpi_plus_circle.png.flat",
@@ -656,6 +656,10 @@
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable_map.jpg.flat",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable\\map.jpg"
+    },
+    {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-mdpi_pizza1.png.flat",
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable-mdpi\\pizza1.png"
     },
@@ -698,6 +702,10 @@
     {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable_flogo.jpg.flat",
+        "source": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-main-37:\\drawable\\flogo.jpg"
     },
     {
         "merged": "C:\\Users\\azuz\\.gradle\\daemon\\7.5\\com.example.foodtime.app-merged_res-35:\\drawable-ldpi_bottom_btn1.png.flat",

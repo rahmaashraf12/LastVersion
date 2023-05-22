@@ -29,6 +29,7 @@ drawable cat_5
 drawable chronometer
 drawable designlogo
 drawable flame
+drawable flogo
 drawable food1
 drawable food2
 drawable grey_bar
@@ -37,19 +38,16 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable juice
 drawable logo
-drawable logo1
 drawable logo2
-drawable logodesign
+drawable map
 drawable minus
 drawable orange_background
 drawable pizza1
 drawable pizza3
 drawable plus
 drawable plus_circle
-drawable profile
 drawable search
 drawable search_edit_background
-drawable star
 drawable white_button
 drawable white_circle
 drawable white_recommended_btn
@@ -106,6 +104,7 @@ id none_map
 id normal_map
 id numberItemTxt
 id out_Google_Map
+id paymentbtn
 id picCart
 id plus_Card_Btn
 id priceTxt
@@ -144,7 +143,6 @@ id textView5
 id textView6
 id textView7
 id textView8
-id textView9
 id timeImage
 id timeTxt
 id title_Txt
