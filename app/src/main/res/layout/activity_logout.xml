@@ -111,23 +111,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.2"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/profilePage"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/bottom_btn2" />
-
-                    <TextView
-                        android:id="@+id/profile"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Profile"
-                        android:textAlignment="center"
-                        android:textColor="#676767"
-                        android:textSize="12sp" />
-                </LinearLayout>
+                    android:orientation="vertical"/>
 
                 <LinearLayout
                     android:id="@+id/CardBtn_again"
@@ -166,7 +150,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/bottom_btn3" />
+                        app:srcCompat="@drawable/map" />
 
                     <TextView
                         android:id="@+id/support"
